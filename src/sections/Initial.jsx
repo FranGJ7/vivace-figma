@@ -1,9 +1,7 @@
 import styles from "../styles/initial.module.scss"
 
-
-
-const Initial = () =>(
-   <div className={styles.container}>
+const Initial = () => (
+  <div className={styles.container}>
     <div className={styles.leftBox}>
       <div className={styles.textBox}>
         <p className={styles.logo}>VIVACE</p>
@@ -13,17 +11,15 @@ const Initial = () =>(
       </div>
     </div>
     <div className={styles.rightBox}>
-        <div className={styles.navBar}>
-           <a href="#">Sobre</a>
-           <a href="#">Quartos</a>
-           <a href="#">Contato</a>
-           <button className={styles.btnRight}>RESERVAR</button>
-        </div>
-        <div className={styles.boxImg}/>  
-        
-        
+      <div className={styles.navBar}>
+        <a href="#">Sobre</a>
+        <a href="#">Quartos</a>
+        <a href="#">Contato</a>
+        <button className={styles.btnRight}>RESERVAR</button>
+      </div>
+      <div className={styles.boxImg} />
     </div>
-   </div>
+  </div>
 );
 
 export default Initial

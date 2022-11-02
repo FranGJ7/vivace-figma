@@ -1,0 +1,48 @@
+@import "../variables.module.scss";
+
+.aboutSection{
+    display: flex;
+    flex-direction: row;
+    padding-top: 135px;
+}
+.imgBox{
+    background-image: url("../../public/img-inn/about.png");
+    background-position: center;
+    background-size: cover;
+    width: 602px;
+    height: 284px;
+}
+.aboutBox{
+    padding-left: 90px;
+    width: 700px;
+}
+.title{
+    font-family: $display;
+    font-size: 36px;
+    padding-bottom: 18px;
+}
+hr{
+    width: 63px;
+    height: 3px;
+    background: $light-green;
+    position: relative;
+    border: none;
+}
+.description{
+    padding-top: 24px;
+}
+button{
+    color: $white;
+    background-color: $dark-gray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 162px;
+    height: 52px;
+    border: none;
+    margin-top: 36px;
+    cursor: pointer;
+}
+.boxRight{
+    background-color: $light-green;
+    width: 50px;
+    margin-left: 305px;
+}
