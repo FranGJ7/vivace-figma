@@ -1,0 +1,71 @@
+@import "../variables.module.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.leftBox {
+    color: $white;
+    background-image: url("../../public/img-inn/initial1.png");
+    width: 602px;
+    height: 669px;
+}
+.textBox{
+    width: 352px;
+    margin: auto;
+    padding-top: 55px;
+}
+.logo{
+    font-family:$display;
+    font-size:36px;
+}
+.title{
+    padding-top: 28px;
+    font-family:$display;
+    font-size:48px;
+}
+.subTitle{
+      padding-top: 50px;
+      font-size:24px;
+}
+.btnLeft {
+    color: $dark-green;
+    background-color: $yellow;
+    width: 162px;
+    height: 52px;
+    border: none;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.rightBox {
+    width: 764px;
+    height: 669px;
+    background-color: $yellow;
+}
+.navBar{
+    text-align: center;
+}
+a {
+    font-size:20px;
+    color: $dark-gray;
+    text-decoration: none;
+    padding:20px;
+}
+.btnRight{
+    @extend .btnLeft; 
+    color: $white;
+    background-color: $dark-gray;
+    margin: 51px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.boxImg {
+    background-image: url("../../public/img-inn/initial2.png");
+    background-position: center;
+    background-size: cover;
+    width: 674px;
+    height: 515px;
+    border-radius: 120px 0 0;
+    position:relative;
+    float:right;
+}
