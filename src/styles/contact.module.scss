@@ -1,0 +1,46 @@
+@import "../variables.module.scss";
+
+.contactSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 49px;
+    padding-left: 152px;
+    padding-bottom:137px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 340px;
+    font-family: $display;
+    font-size: 36px;
+    padding-bottom: 24px;
+}
+hr{
+    width: 63px;
+    height: 3px;
+    background: $light-green;
+    position: relative;
+    border: none;
+    margin-bottom: 30px;
+}
+label{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 400px;
+    outline: 0;
+}
+
+
+
+.boxImg{
+    width: 432px;
+    height: 736px;
+}
