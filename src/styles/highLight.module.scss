@@ -1,0 +1,38 @@
+@import "../variables.module.scss";
+
+.highLight{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color:#262626da;
+     width: 1062px;
+     height: 135px;
+}
+.boxItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: auto; 
+}
+.circle{
+     display: flex;
+     align-items: center;
+     background-color: $yellow;
+     width: 72px;
+     height: 72px;
+     border-radius: 100px;  
+}
+.icon{
+     width: 40px;
+     height: 40px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.description{
+      color: $white;
+      font-size: 20px;
+      padding-top: 7px; 
+      width: 148px;
+      height: 72px;
+}

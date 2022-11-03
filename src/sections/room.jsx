@@ -1,7 +1,9 @@
 import Carousel from "../components/carousel";
+import HighLight from "../components/highLight";
 import styles from "../styles/room.module.scss"
 
 const Room = () => (
+  <>
   <div className={styles.sectionRoom}>
     <div className={styles.textBox}>
       <p className={styles.title}>Nossos Quartos</p>
@@ -11,7 +13,15 @@ const Room = () => (
     <div className={styles.carouselBox}>
       <Carousel />
     </div>
+    
+   
   </div>
+  <div className={styles.highLight}> 
+  <HighLight/>
+  </div>
+  
+ 
+  </>
 );
 
 export default Room

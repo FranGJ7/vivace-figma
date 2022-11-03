@@ -11,7 +11,7 @@ const Contact = () => (
       <input id="email" type="email" placeholder="Ex: joao@gmail.com" />
       <label htmlFor="message">Mensagem</label>
       <input id="message" type="text" placeholder="Mensagem" />
-      <button>Enviar</button>
+      <button className={styles.btn}>Enviar</button>
     </div>
     <div className={styles.boxImg}>
       <img src="../../public/img-inn/contact.png" alt="" />

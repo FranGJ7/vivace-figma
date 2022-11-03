@@ -25,3 +25,8 @@
 .carouselBox{
   padding-top: 109px;
 } 
+.highLight{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient($light-green, $white);
+}
