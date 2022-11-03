@@ -1,0 +1,27 @@
+@import "../variables.module.scss";
+
+
+.sectionRoom{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: $light-green;
+    height:580px;
+    margin-top: 135px;
+}
+.textBox{ 
+    width: 600px;
+    padding-top: 138px;
+    padding-left: 150px;
+}
+.title{
+    font-family: $display;
+    font-size: 36px;
+    padding-bottom: 18px;
+} 
+.subTitle{
+    padding-top: 24px;
+}
+.carouselBox{
+  padding-top: 109px;
+} 
