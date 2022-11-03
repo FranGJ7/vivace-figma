@@ -4,32 +4,42 @@
     display: flex;
     flex-direction: row;
 }
+
 .leftBox {
     color: $white;
-    background-image: url("../../public/img-inn/initial1.png");
-    width: 602px;
-    height: 669px;
+    background-image: url("../../public/img-inn/initial1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 731px;
+
 }
-.textBox{
-    width: 352px;
+
+.textBox {
+    width: 400px;
     margin: auto;
     padding-top: 55px;
 }
-.logo{
-    font-family:$display;
-    font-size:36px;
+
+.logo {
+    font-family: $display;
+    font-size: 36px;
 }
-.title{
+
+.title {
     padding-top: 28px;
-    font-family:$display;
-    font-size:48px;
+    font-family: $display;
+    font-size: 52px;
 }
-.subTitle{
-      padding-top: 50px;
-      font-size:24px;
+
+.subTitle {
+    padding-top: 50px;
+    font-size: 24px;
 }
+
 .btnLeft {
     color: $dark-green;
+    font-weight: 800;
     background-color: $yellow;
     width: 162px;
     height: 52px;
@@ -39,33 +49,168 @@
 }
 
 .rightBox {
-    width: 764px;
-    height: 669px;
+    width: 50%;
     background-color: $yellow;
+    height: 731px;
 }
-.navBar{
-    text-align: center;
+
+.navBar {
+    padding-left: 13%;
 }
+
 a {
-    font-size:20px;
+    font-size: 20px;
     color: $dark-gray;
     text-decoration: none;
-    padding:20px;
+    padding: 20px;
 }
-.btnRight{
-    @extend .btnLeft; 
+
+.btnRight {
+    @extend .btnLeft;
     color: $white;
     background-color: $dark-gray;
     margin: 51px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 .boxImg {
     background-image: url("../../public/img-inn/initial2.png");
-    background-position: center;
     background-size: cover;
-    width: 674px;
-    height: 515px;
+    background-position: center;
+    width: 85%;
+    height: 578px;
     border-radius: 120px 0 0;
-    position:relative;
-    float:right;
+    position: relative;
+    float: right;
+}
+
+
+
+@media(max-width:1333px) {
+    .textBox {
+        width: 340px;
+        padding-top: 48px;
+    }
+
+    .title {
+        padding-top: 28px;
+        font-size: 46px;
+    }
+
+    a {
+        padding: 10px;
+    }
+
+    .btnRight {
+        font-weight: 200;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 100px;
+        height: 42px;
+    }
+
+    .boxImg {
+        height: 588px;
+    }
+}
+
+@media(max-width:918px) {
+    .leftBox {
+        height: 667px;
+    }
+
+    .textBox {
+        width: 300px;
+        padding-top: 30px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 43px;
+    }
+
+    .subTitle {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .navBar {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .rightBox {
+        height: 668px;
+    }
+
+    .boxImg {
+        width: 95%;
+        height: 556px;
+    }
+
+    .btnRight {
+        margin: 5px;
+    }
+}
+
+@media(max-width:701px) {
+    .textBox {
+        width: 400px;
+        padding-top: 55px;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .title {
+        padding-top: 28px;
+        font-size: 52px;
+    }
+
+    .subTitle {
+        padding-top: 50px;
+        font-size: 24px;
+    }
+
+    .btnLeft {
+        margin-top: 50px;
+    }
+
+    .leftBox {
+        width: 100%;
+    }
+
+    .rightBox {
+        display: none;
+    }
+}
+
+@media(max-width:435px) {
+    .leftBox {
+        height: 568px;
+    }
+
+    .textBox {
+        width: 300px;
+        padding-top: 55px;
+    }
+
+    .title {
+        padding-top: 28px;
+        font-size: 40px;
+    }
+
+    .subTitle {
+        padding-top: 35px;
+        font-size: 18px;
+    }
 }
