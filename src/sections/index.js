@@ -2,7 +2,9 @@ import Initial from "./Initial";
 import About from "./about";
 import Room from "./room";
 import Contact from "./contact";
+import FooterMain from "./footerMain";
 import Footer from "./footer";
+
 
 
 export{
@@ -10,5 +12,6 @@ export{
     About,
     Room,
     Contact,
+    FooterMain,
     Footer
 }

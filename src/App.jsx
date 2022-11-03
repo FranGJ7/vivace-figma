@@ -1,4 +1,4 @@
-import {Initial, About, Room, Contact, Footer} from "./sections"
+import {Initial, About, Room, Contact, FooterMain, Footer} from "./sections"
 import './App.scss'
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
       <About/>
       <Room/>
       <Contact/>
+      <FooterMain/>
       <Footer/>
     </>
   )
