@@ -6,7 +6,7 @@ const About = () => (
     <div className={styles.imgBox} />
     <div className={styles.aboutBox}>
       <p className={styles.title}>Sobre nós</p>
-      <hr />
+      <hr className={styles.hrAbout}/>
       <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
       <button className={styles.btnAbout}>SAIBA MAIS</button>
     </div>

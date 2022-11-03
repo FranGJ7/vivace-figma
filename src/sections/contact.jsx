@@ -4,7 +4,7 @@ const Contact = () => (
   <div className={styles.contactSection}>
     <div className={styles.form}>
       <p className={styles.title}>Entre em contato e faça sua reserva</p>
-      <hr />
+      <hr className={styles.hrContact}/>
       <label htmlFor="name" >Name</label>
       <input id="name" type="text" placeholder="Ex: João martins souza" />
       <label htmlFor="email" >Email</label>

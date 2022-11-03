@@ -11,14 +11,14 @@ const FooterMain = () => (
 
         <div className={styles.boxText}>
             <p className={styles.title}>Explore</p>
-            <hr />
+            <hr className={styles.hrFooter}/>
             <p className={styles.subTitle}>Sobre nós</p>
             <p className={styles.subTitle}>Nossos quartos</p>
             <p className={styles.subTitle}>Faça sua reserva</p>
         </div>
         <div className={styles.boxEmail}>
-            <p className={styles.title}>Não perca nossas novidades</p>
-            <hr />
+            <p className={styles.titleEmail}>Não perca nossas novidades</p>
+            <hr  className={styles.hrFooterEmail}/>
             <input className={styles.inputFooter} type="email" placeholder="Ex: joao@gmail.com" />
             <br />
             <button className={styles.btnFooter}>ENVIAR</button>
