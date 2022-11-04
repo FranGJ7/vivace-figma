@@ -87,6 +87,11 @@ a {
 
 
 @media(max-width:1333px) {
+    .btnLeft {
+        font-size: 11px;
+        width: 132px;
+        height: 42px;
+    }
     .textBox {
         width: 340px;
         padding-top: 48px;
@@ -105,12 +110,12 @@ a {
         font-weight: 200;
         margin-left: 25px;
         margin-right: 25px;
-        width: 100px;
-        height: 42px;
+        width: 90px;
+        height: 38px;
     }
 
     .boxImg {
-        height: 588px;
+        height: 590px;
     }
 }
 
@@ -118,6 +123,7 @@ a {
     .leftBox {
         height: 667px;
     }
+   
 
     .textBox {
         width: 300px;
@@ -153,7 +159,7 @@ a {
 
     .boxImg {
         width: 95%;
-        height: 556px;
+        height: 560px;
     }
 
     .btnRight {

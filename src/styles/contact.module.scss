@@ -5,9 +5,9 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 49px;
-    padding-left: 152px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom:137px;
-
 }
 .form{
     display: flex;
@@ -29,17 +29,21 @@
 }
 label{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
-input{
+.inputForm{
     border: none;
     border-bottom: 1px solid;
     width: 400px;
     outline: 0;
 }
+.inputMessage{
+    @extend .inputForm;
+    padding-top: 50px;
+}
 .boxImg{
     width: 432px;
-    height: 736px;
+    height: 600px;
 }
 .btn{
     width: 432px;
@@ -50,4 +54,95 @@ input{
     background-color: $dark-gray;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     cursor: pointer; 
+}
+
+@media(max-width:1110px){
+    .boxImg{
+        width: 332px;
+        height: 500px;
+    }
+    .title{
+        width: 300px;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .hrContact{ 
+        margin-bottom: 20px;
+    }
+    label{
+        padding-top: 10px;
+        padding-bottom: 28px;
+    }
+    .inputForm{
+        width: 300px;
+    }
+    .btn{
+        width: 332px;
+        height: 54px;
+    }
+}
+
+@media(max-width:860px){
+    .contactSection{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .boxImg{
+        width: 290px;
+        height: 470px;
+    }
+    .title{
+        width: 250px;
+        font-size: 28px;
+    }
+    label{
+        padding-bottom: 23px;
+    }
+    .inputForm{
+        width: 250px;
+    }
+    .btn{
+        width: 250px;
+        height: 45px;
+    }
+}
+
+
+@media(max-width:630px){
+    .contactSection{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .boxImg{
+        width: 270px;
+        height: 450px;
+    }
+    .title{
+        width: 230px;
+    }
+    .hrContact{ 
+        margin-bottom: 18px;
+    }
+    label{
+        padding-top: 9px;
+        padding-bottom: 18px;
+    }
+    .inputForm{
+        width: 230px;
+    }
+    .btn{
+        width: 230px;
+        height: 42px;
+    }
+}
+
+@media(max-width:630px){
+    .contactSection{
+         gap: 10px;
+         flex-wrap: wrap-reverse;
+         padding-bottom: 70px;
+    }
+    .boxImg{
+        padding-bottom: 28px;
+    }
 }

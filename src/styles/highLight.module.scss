@@ -1,38 +1,139 @@
 @import "../variables.module.scss";
 
-.highLight{
+.highLight {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
-     background-color:#262626da;
-     width: 1062px;
-     height: 135px;
+     background-color: #262626da;
+     width: 75%;
+     height: 125px;
 }
-.boxItem{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 16px;
-    margin: auto; 
+
+.boxItem {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 16px;
+     margin: auto;
 }
-.circle{
+
+.circle {
      display: flex;
      align-items: center;
      background-color: $yellow;
      width: 72px;
      height: 72px;
-     border-radius: 100px;  
+     border-radius: 100px;
 }
-.icon{
+
+.icon {
      width: 40px;
      height: 40px;
      margin-left: auto;
      margin-right: auto;
 }
-.description{
-      color: $white;
-      font-size: 20px;
-      padding-top: 7px; 
-      width: 148px;
-      height: 72px;
+
+.description {
+     color: $white;
+     font-size: 20px;
+     padding-top: 7px;
+     width: 148px;
+     height: 72px;
+}
+
+@media(max-width:1024px) {
+     .highLight {
+          width: 80%;
+          height: 90px;
+     }
+
+     .description {
+          font-size: 15px;
+          padding-top: 15px;
+          width: 110px;
+     }
+
+     .circle {
+          width: 50px;
+          height: 50px;
+          border-radius: 100px;
+     }
+
+     .icon {
+          width: 30px;
+          height: 30px;
+     }
+}
+
+@media(max-width:760px) {
+     .highLight {
+          width: 90%;
+          height: 70px;
+     }
+
+     .description {
+          font-size: 13px;
+          padding-top: 18px;
+          width: 96px;
+     }
+
+     .circle {
+          width: 40px;
+          height: 40px;
+
+     }
+
+     .icon {
+          width: 25px;
+          height: 25px;
+     }
+}
+
+@media(max-width:560px) {
+     .highLight {
+          width: 95%;
+          height: 70px;
+     }
+
+     .description {
+          font-size: 11px;
+          padding-top: 20px;
+          width: 81px;
+     }
+
+     .circle {
+          width: 35px;
+          height: 35px;
+
+     } 
+
+     .icon {
+          width: 22px;
+          height: 22px;
+     }
+
+}
+@media(max-width:460px) {
+     .highLight {
+          width: 100%;
+          height: 65px;
+     }
+     .description {
+          padding-top: 18px;
+     }
+}
+@media(max-width:420px){
+     .highLight {
+          height: 115px;
+     }
+     .boxItem {
+          flex-direction: column;
+     }
+     .circle {
+        margin-top: 10px;
+     }
+     .description {
+          padding-top: 0px;
+          padding-left: 14px; 
+     }
 }
