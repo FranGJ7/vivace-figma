@@ -1,9 +1,10 @@
+import imgAbout from "../../public/img-inn/about.jpg"
 import styles from "../styles/about.module.scss"
 
 
 const About = () => (
   <div className={styles.aboutSection}>
-    <img className={styles.imgBox} src="../../public/img-inn/about.jpg" />
+    <img className={styles.imgBox} src={imgAbout}/>
     <div className={styles.aboutBox}>
       <p className={styles.title}>Sobre nós</p>
       <hr className={styles.hrAbout}/>
@@ -13,4 +14,4 @@ const About = () => (
   </div>
 );
 
-export default About
+export default About  

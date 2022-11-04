@@ -2,7 +2,7 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 .leftBox {
@@ -10,6 +10,7 @@
     background-image: url("../../public/img-inn/initial1.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 50%;
     height: 731px;
 
@@ -23,10 +24,12 @@
 
 .logo {
     font-family: $display;
+    
     font-size: 36px;
 }
 
 .title {
+    
     padding-top: 28px;
     font-family: $display;
     font-size: 52px;

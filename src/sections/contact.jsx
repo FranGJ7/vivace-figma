@@ -1,3 +1,4 @@
+import imgContact from "../../public/img-inn/contact.png"
 import styles from "../styles/contact.module.scss"
 
 const Contact = () => (
@@ -14,8 +15,7 @@ const Contact = () => (
       <button className={styles.btn}>Enviar</button>
     </div>
     <div className={styles.boxImg}>
-      <img src="../../public/img-inn/contact.png" alt="" />
-
+      <img src={imgContact} alt="imgContact" /> 
     </div>
   </div>
 );
