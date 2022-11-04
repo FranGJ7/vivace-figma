@@ -8,18 +8,15 @@ const Room = () => (
     <div className={styles.textBox}>
       <p className={styles.title}>Nossos Quartos</p>
       <hr className={styles.hrRoom}/>
-      <p className={styles.subTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p className={styles.subTitle}>Lorem ipsum dolor sit amet,  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     </div>
     <div className={styles.carouselBox}>
       <Carousel />
     </div>
-    
-   
   </div>
   <div className={styles.highLight}> 
   <HighLight/>
   </div>
-  
  
   </>
 );

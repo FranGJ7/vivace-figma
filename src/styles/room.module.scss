@@ -1,18 +1,17 @@
 @import "../variables.module.scss";
 
-
 .sectionRoom{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: center;
     background-color: $light-green;
     height:580px;
     margin-top: 135px;
 }
-.textBox{ 
-    width: 600px;
-    padding-top: 138px;
-    padding-left: 150px;
+.textBox{
+    width: 500px;
+    padding-top: 140px;
+    padding-left: 80px;
 }
 .title{
     font-family: $display;
@@ -29,11 +28,40 @@
 .subTitle{
     padding-top: 24px;
 }
-.carouselBox{
-  padding-top: 109px;
+.carouselBox{ 
+  padding-top: 25px;
 } 
 .highLight{
     display: flex;
     justify-content: center;
     background: linear-gradient($light-green, $white);
 }
+
+@media(max-width:1271px){
+    .textBox{
+        padding-top: 110px;
+        padding-left: 80px;
+    }
+}
+@media(max-width:1024px){
+    .sectionRoom{
+         flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height:580px;
+    }
+    .textBox{
+        width: 500px;
+        padding-top: 40px;
+        padding-left: 18px;
+    }
+    .carouselBox{ 
+        padding-top: 0px;
+      } 
+      .sectionRoom{
+    height:750px;
+}
+}
+
+
+ 

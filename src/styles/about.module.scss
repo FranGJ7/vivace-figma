@@ -3,20 +3,21 @@
 .aboutSection{
     display: flex;
     flex-direction: row;
-    padding-top: 135px;
+    justify-content: center;
+    padding-top: 135px; 
+}
+.boxLeft{
+    background-color:white;
+    width: 40px;
 }
 .imgBox{
-    background-image: url("../../public/img-inn/about.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 602px;
-    height: 284px;
+    width: 30%;  
 }
 .aboutBox{
     padding-left: 90px;
-    width: 700px;
+    width: 40%;
 }
-.title{
+.title{ 
     font-family: $display;
     font-size: 36px;
     padding-bottom: 18px;
@@ -40,9 +41,59 @@
     border: none;
     margin-top: 36px;
     cursor: pointer;
+} 
+
+@media(max-width:1340px){
+    .imgBox{
+        width: 50%;  
+    }
+    .aboutBox{
+        
+        padding-left: 50px;
+        width: 40%;
+    }
+    .title{ 
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .description{
+        padding-top: 15px;
+    }
+    .btnAbout{
+        width: 150px;
+        height:  48px;
+        margin-top: 10px;
+    } 
 }
-.boxRight{
-    background-color: $light-green;
-    width: 50px;
-    margin-left: 305px;
+@media(max-width:896px){
+    .imgBox{
+        width: 400px;  
+    }
+    .aboutSection{
+        flex-wrap: wrap-reverse;
+        padding-top: 55px; 
+    }
+    .aboutBox{
+        width: 400px; 
+    } 
+}
+@media(max-width:814px){
+.aboutBox{
+    padding-left: 0px;
+} 
+.btnAbout{
+    font-size: 12px;
+    width: 120px;
+    height:  38px;
+    margin-bottom: 15px;
+} 
+}
+
+@media(max-width:440px){
+    .imgBox{
+        width: 90%;  
+    }
+    .aboutBox{
+        width: 90%; 
+    } 
 }
